@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `hyperfocus.dev`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Henry Doce`,
+      summary: `who lives and works in Miami, Florida.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `A blog dedicated to playing devils advocate, discussing tech, and the pursuit of knowledge.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `DoceHenry`,
     },
   },
   plugins: [
@@ -63,8 +63,8 @@ module.exports = {
         name: `Gatsby Starter Blog`,
         short_name: `GatsbyJS`,
         start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#663399`,
+        background_color: `#eafdf8`,
+        theme_color: `#ffa5c3`,
         display: `minimal-ui`,
         icon: `content/assets/gatsby-icon.png`,
       },

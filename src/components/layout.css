@@ -1,0 +1,38 @@
+p, small, li, footer {
+  color: white;
+}
+
+blockquote p {
+  color: lightcoral;
+}
+
+.header, a, h1, h2, h3, h4, h5, h6 {
+  color: #ffa5c3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 2rem;
+}
+
+.bioContainer {
+  display: flex;
+}
+
+h1.header {
+  font-size: 2.4rem;
+  margin-top: 0;
+}
+
+#gatsby-focus-wrapper {
+  background-color: #002a32;
+}
+
+@media only screen and (min-width: 600px) {
+  h1.header {
+    font-size: 3.95285rem;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 2rem;
+}
+}

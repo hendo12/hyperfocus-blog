@@ -5,6 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
+import './blog-post.css';
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
@@ -17,13 +18,13 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
-      <article>
+      <article className="blogPostContainer">
         <header>
           <h1
-            style={{
-              marginTop: rhythm(1),
-              marginBottom: 0,
-            }}
+            // style={{
+            //   marginTop: rhythm(1),
+            //   marginBottom: 0,
+            // }}
           >
             {post.frontmatter.title}
           </h1>

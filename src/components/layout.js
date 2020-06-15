@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import { rhythm, scale } from "../utils/typography"
+import './layout.css';
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -11,15 +12,16 @@ const Layout = ({ location, title, children }) => {
     header = (
       <h1
         style={{
-          ...scale(1.5),
-          marginBottom: rhythm(1.5),
-          marginTop: 0,
+          //...scale(1.5),
+          //marginBottom: rhythm(1.5),
+          //marginTop: 0,
         }}
+        className="header"
       >
         <Link
           style={{
             boxShadow: `none`,
-            color: `inherit`,
+            //color: `inherit`,
           }}
           to={`/`}
         >
@@ -34,11 +36,12 @@ const Layout = ({ location, title, children }) => {
           fontFamily: `Montserrat, sans-serif`,
           marginTop: 0,
         }}
+        className="header"
       >
         <Link
           style={{
             boxShadow: `none`,
-            color: `inherit`,
+            //color: `inherit`,
           }}
           to={`/`}
         >
