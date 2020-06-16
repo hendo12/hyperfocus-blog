@@ -49,7 +49,7 @@ const Bio = () => {
         alt={author.name}
         style={{
           marginRight: rhythm(1 / 2),
-          marginBottom: 0,
+          // marginBottom: 0,
           minWidth: 50,
           borderRadius: `100%`,
         }}

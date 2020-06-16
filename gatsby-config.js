@@ -3,7 +3,7 @@ module.exports = {
     title: `hyperfocus.dev`,
     author: {
       name: `Henry Doce`,
-      summary: `who lives and works in Miami, Florida.`,
+      summary: `who's a former Psycosocial Rehabilitation Counselor, Ironhack graduate, full-time Front End Web Developer and devil's advocate, and fan of the Oxford comma. Based out of Miami, Florida.`,
     },
     description: `A blog dedicated to playing devils advocate, discussing tech, and the pursuit of knowledge.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
